@@ -5,7 +5,7 @@ RUN apt-get update
 
 RUN apt-get install -y curl unzip
 
-RUN curl https://dl.bintray.com/rabbitmq/community-plugins/3.6.x/rabbitmq_delayed_message_exchange/rabbitmq_delayed_message_exchange-20171215-3.6.x.zip > rabbitmq_delayed_message_exchange-20171215-3.6.x.zip
+RUN curl -O https://dl.bintray.com/rabbitmq/community-plugins/3.6.x/rabbitmq_delayed_message_exchange/rabbitmq_delayed_message_exchange-20171215-3.6.x.zip
 
 RUN unzip rabbitmq_delayed_message_exchange-20171215-3.6.x.zip -d $RABBITMQ_HOME/plugins
 
