@@ -12,5 +12,7 @@ These are RabbitMQ dockerfiles, based on the [Official](https://hub.docker.com/_
 
 ## Usage
 Since these are based on Official Images, the environment variables can be used as in [Official Images](https://hub.docker.com/_/rabbitmq).
-The default RabbitMQ ports are exposed as in the [Official Images](https://hub.docker.com/_/rabbitmq). Sample docker run command is as follows \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`docker run vishalsngl/rabbitmq-delayed-message-exchange:latest`
+The default RabbitMQ ports are exposed as in the [Official Images](https://hub.docker.com/_/rabbitmq). Sample docker run command is as follows
+\
+\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `docker run vishalsngl/rabbitmq-delayed-message-exchange:latest`
